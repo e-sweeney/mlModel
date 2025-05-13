@@ -1,4 +1,4 @@
-name: mlModelRun
+name: pullImage
 on: 
    
     workflow_dispatch:  
