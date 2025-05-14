@@ -12,7 +12,7 @@ jobs:
             - name: Run New Container
               run: |
                 docker pull edwinasweeney/modelbuild:latest
-                docker service create --replicas 3 --name mymodel --update-delay 10s edwinasweeney/modelbuild:latest
+               
                 
                
            
